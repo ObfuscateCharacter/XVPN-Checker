@@ -5,7 +5,7 @@ import getpass
 import json
 import sys
 import requests
-from login_protocol_static import login_message, encode, decode, parse_rpc_frame
+from login_protocol import login_message, encode, decode, parse_rpc_frame
 
 DEFAULT_ENDPOINT = 'https://xvpn.io/HermesClientApi'
 
