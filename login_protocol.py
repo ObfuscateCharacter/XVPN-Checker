@@ -1,7 +1,4 @@
-"""Protocol codec from static disassembly. No HTTP or credential logging here.
-Verified against real Hermes Ping and empty-login responses on 2026-10-29.
-Real-account authentication has not been verified. See HERMES_BREAKTHROUGH.md.
-"""
+
 import hashlib
 import hmac
 import json
